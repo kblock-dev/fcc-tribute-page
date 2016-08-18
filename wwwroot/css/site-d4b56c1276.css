@@ -62,11 +62,25 @@ body
     margin-top: 5px;
 }
 
+.tribute-events
+{
+    padding-top: 25px;
+
+    color: #99f;
+}
+
 .tribute-quote blockquote
 {
     margin-top: 25px;
 
     quotes: '“' '”' '‘' '’';
+}
+
+dl dt
+{
+    font-weight: lighter;
+
+    display: inline-block;
 }
 
 nav.navbar

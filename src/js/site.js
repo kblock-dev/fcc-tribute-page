@@ -15,4 +15,5 @@ $(document).ready(function(){
   });
 
   $('nav').addClass('hide');
+  $('title').html('Stephen Hawking - Tribute Page');
 });
