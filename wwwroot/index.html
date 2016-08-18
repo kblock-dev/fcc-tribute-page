@@ -1,0 +1,148 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Application Title</title>
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" />
+    <link href="lib/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
+    <!-- inject:css -->
+    <link rel="stylesheet" href="css/bootstrap-5fc2497eb4.min.css">
+    <link rel="stylesheet" href="css/site-8f750d5272.min.css">
+    <!-- endinject -->
+    <!-- modernizr must be loaded in the head before the page is rendered -->
+    <script src="js/modernizr-2.6.2.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Brand</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a id="jQueryTestButton" href="#">Test jQuery</a></li>
+                    <li class="dropdown hide">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-left hide">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i>	Welcome, User! <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Profile</a></li>
+                            <li><a href="#">Settings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Sign Out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <div class="container main-content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="tribute-heading">
+                    <h1>Stephen Hawking</h1>
+                    <h3><em>The Theory of Everything</em></h3>
+                </div>
+                <div class="tribute-image-box">
+                    <figure>
+                        <img src="http://www.popsci.com/sites/popsci.com/files/styles/medium_1x_/public/stephen-hawking.jpg?itok=M1pdFPVE" alt="Stephen Hawking" />
+                        <figcaption>
+                            <span><em>Stephen Hawking at the Time Travellers Party he hosted on 6/28/2009</em></span>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="tribute-events">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3">
+                        </div>
+                    </div>
+                </div>
+                <div class="tribute-quote">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3">
+                            <blockquote>
+                                <p><em>&quot;Transcendence looks at the implications of artificial intelligence - but are we taking AI seriously enough?&quot;</em></p>
+                                <small>Stephen Hawking</small>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="tribute-learn-more">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <h3>To learn more about this billiant physisist, you can check out his <a href="https://en.wikipedia.org/wiki/Stephen_Hawking">Wikipedia</a> page
+                              or his <a href="http://www.biography.com/people/stephen-hawking-9331710">biography</a>.
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container footer">
+        <hr />
+        <div class="text-center">
+            &copy; 2016 - <a href="https://www.freecodecamp.com/kblock-dev">kblock-dev</a>
+        </div>
+    </div>
+    <div class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    <p>One fine body&hellip;</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/bootstrap/scripts/bootstrap.min.js"></script>
+    <!-- inject:js -->
+    <script src="js/site-fcb1d1880f.min.js"></script>
+    <!-- endinject -->
+</body>
+
+</html>
